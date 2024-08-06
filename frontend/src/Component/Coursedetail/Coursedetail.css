@@ -1,0 +1,15 @@
+.bgfullpath{
+    height: 100vh;
+    /* background-image: linear-gradient(45deg,purple,#a90c7c); */
+    
+}
+.card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2; /* Limits the text to 2 lines */
+    line-height: 1.5em; /* Adjust this based on your font size */
+    max-height: 3em; /* Adjust this based on the line height */
+  }
+  
